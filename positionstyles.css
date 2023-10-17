@@ -49,7 +49,7 @@
   width: 100px; 
   height: 100px; 
   background-color: green;  
-  margin-right: 30px;
+  margin-right: 40px;
   z-index: 1;
   margin-bottom: -50;
 } 
@@ -57,7 +57,7 @@
   width: 100px; 
   height: 100px; 
   background-color: gold; 
-  margin-right: 40px;  
+  margin-right: 50px;  
   z-index: 2;
 
 }
@@ -90,6 +90,7 @@
   height: 100px; 
   background-color: gold; 
   grid-template-rows: 80px auto 80px; 
+  
 } 
 .blue3 {
   width: 100%;
@@ -106,6 +107,7 @@
   width: 100px; 
   height: 100px; 
   background-color: red; 
+  align-self: stretch;
 } 
 .green4 {
   width: 100px; 
