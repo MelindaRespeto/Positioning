@@ -94,6 +94,7 @@
   grid-column-end: span col4-start;
   grid-row-start: 2;
   grid-row-end: span 2;
+  z-index: 2;
 } 
 .yellow3, main {
   width: 40%; 
