@@ -89,7 +89,7 @@
   width: 40%; 
   height: 100px; 
   background-color: gold; 
-  
+  grid-template-rows: 80px auto 80px; 
 } 
 .blue3 {
   width: 100%;
