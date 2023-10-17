@@ -32,21 +32,24 @@
 } 
 /* Activity 2 styles */ 
 .content2 {
-  grid-template-columns: 50px 50px 50px 50px ;
+  grid-template-columns: repeat (3, 100px);
+  grid-template-rows: repeat(3, 100px);
   
 }
 .red2 {
-  margin-top: 100px;
+  margin-top: 20px;
   width: 100px; 
   height: 100px; 
-  background-color: red; 
+  background-color: red;
+  position: relative;
   
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
   background-color: green;  
- 
+  top: -50px;
+  left: -50px;
 } 
 .yellow2 {
   width: 100px; 
