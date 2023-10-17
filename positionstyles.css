@@ -32,6 +32,9 @@
 } 
 /* Activity 2 styles */ 
 .content2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
   z-index: 1;
 }
 .red2 {
@@ -39,13 +42,16 @@
   width: 100px; 
   height: 100px; 
   background-color: red; 
-  z-index: 1;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+ 
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
   background-color: green; 
-  z-index: 2;
+  
 } 
 .yellow2 {
   width: 100px; 
