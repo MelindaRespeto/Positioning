@@ -49,20 +49,21 @@
   height: 100px; 
   background-color: green;  
   margin-left: 20px;
-  z-index: -10;
+  z-index: 10;
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
-  margin-left: 40px;}
-
+  margin-left: 40px;  
+  z-index: 20;
+}
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
-  margin-left: 50px;
-  z-index: -1;
+  margin-left: 60px;
+  z-index: 30;
   
 } 
 /* Activity 3 styles */ 
