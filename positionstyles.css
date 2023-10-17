@@ -89,9 +89,9 @@
   width: 40%; 
   height: 100px; 
   background-color: green;
-  
+  grid-column: 1/2;
 } 
-.yellow3,  {
+.yellow3, main {
   width: 40%; 
   height: 100px; 
   background-color: gold; 
