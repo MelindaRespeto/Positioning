@@ -107,7 +107,10 @@
   width: 100px; 
   height: 100px; 
   background-color: red; 
-  align-self: stretch;
+  grid-column-start: 2;
+  grid-column-end: five;
+  grid-row-start: row1-start;
+  grid-row-end: 3;
 } 
 .green4 {
   width: 100px; 
