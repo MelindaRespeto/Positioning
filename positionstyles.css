@@ -32,12 +32,13 @@
 } 
 /* Activity 2 styles */ 
 .content2 {
-  margin-top: -50px;
-}
+ 
 .red2 {
+  margin-top: -50px;
   width: 100px; 
   height: 100px; 
   background-color: red; 
+  z-index: -1;
 } 
 .green2 { 
   width: 100px; 
