@@ -72,7 +72,13 @@
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
-  grid-template-areas: "grid-area-name>/./ none ...""..."; 
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+      "header header header header"
+      "main main - side bar"
+      "footer footer footer footer";
 }
 .red3 {
   width: 100%; 
