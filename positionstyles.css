@@ -63,33 +63,32 @@
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
-  display: grid;
+
 }
 header
 .red3 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
-  grid-area: header;
 }
   
 .green3 {
   width: 100px; 
   height: 100px; 
   background-color: green;
-  grid-area: main;
+  
 } 
 .yellow3 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
-  grid-area: sidebar;
+  
 } 
 .blue3 {
   width: 100px;
   height: 100px; 
   background-color: blue; 
-  grid-area: footer;
+  
 } 
 /* Activity 4 styles */ 
 .content4 {
