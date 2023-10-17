@@ -83,7 +83,7 @@
   height: 100px; 
   background-color: red; 
   grid-column: 1/4;
-
+  z-index: 4;
 }
 .green3, main {
   width: 40%; 
