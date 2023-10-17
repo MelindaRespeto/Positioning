@@ -46,7 +46,7 @@
 } 
 .green2 { 
   margin-top: 0px;
-  width: 200px; 
+  width: 100px; 
   height: 100px; 
   background-color: green;  
   margin-left: 30px;
@@ -80,13 +80,13 @@
 
 }
 .green3 {
-  width: 100px; 
+  width: 200px; 
   height: 100px; 
   background-color: green;
   
 } 
 .yellow3 {
-  width: 100px; 
+  width: 200px; 
   height: 100px; 
   background-color: gold; 
   
