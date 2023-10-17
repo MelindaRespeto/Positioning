@@ -32,8 +32,8 @@
 } 
 /* Activity 2 styles */ 
 .content2 {
-  grid-template-columns: repeat (3, 100px);
-  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: repeat (2, 100px);
+  grid-template-rows: repeat(2, 100px);
   
 }
 .red2 {
@@ -55,6 +55,8 @@
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  top: -50px;
+  left: -50px;
 } 
 .blue2 {
   width: 100px; 
