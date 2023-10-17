@@ -49,7 +49,7 @@
   height: 100px; 
   background-color: green;  
   margin-left: 10px;
-  margin-bottom: 25px;
+  z-index: -10;
 } 
 .yellow2 {
   width: 100px; 
