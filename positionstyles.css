@@ -32,8 +32,7 @@
 } 
 /* Activity 2 styles */ 
 .content2 {
-  grid-template-columns: repeat (2, 100px);
-  grid-template-rows: repeat(2, 100px);
+  
   
 }
 .red2 {
