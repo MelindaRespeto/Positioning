@@ -72,7 +72,8 @@
   width: 100px; 
   height: 100px; 
   background-color: red; 
-  grid-column: 1/3;s
+  grid-column: 1/3;
+  justify-self: start | end | center | stretch;
   } 
 .green3 {
   width: 100px; 
