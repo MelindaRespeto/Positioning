@@ -32,7 +32,7 @@
 } 
 /* Activity 2 styles */ 
 .content2 {
-  
+ 
   
 }
 .red2 {
@@ -41,7 +41,7 @@
   height: 100px; 
   background-color: red;
   position: relative;
-  
+ 
 } 
 .green2 { 
   margin-top: 0px;
@@ -51,6 +51,7 @@
   margin-right: 40px;
   z-index: 1;
   margin-bottom: -50;
+
 } 
 .yellow2 {
   width: 100px; 
@@ -71,30 +72,34 @@
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
+  grid-template-areas: "grid-area-name>/./ none ...""..."; 
 }
 .red3 {
   width: 100%; 
   height: 100px; 
   background-color: red; 
+  grid-area: header;
 
 }
 .green3, main {
   width: 40%; 
   height: 100px; 
   background-color: green;
-  
+  grid-area: main;
 } 
 .yellow3, main,  {
   width: 40%; 
   height: 100px; 
   background-color: gold; 
   grid-template-rows: 80px auto 80px; 
+  grid-area: sidebar;
   
 } 
 .blue3 {
   width: 100%;
   height: 100px; 
   background-color: blue; 
+  grid-area: footer;
   
 } 
 /* Activity 4 styles */ 
