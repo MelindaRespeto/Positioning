@@ -32,10 +32,8 @@
 } 
 /* Activity 2 styles */ 
 .content2 {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: 1;
+  position: relative;
+  z-index: -1;
 }
 .red2 {
   margin-top: 100px;
@@ -43,9 +41,10 @@
   height: 100px; 
   background-color: red; 
   position: absolute;
-  left: 0px;
-  top: 0px;
- 
+  left: 10px;
+  top: 10px;
+  z-index: -1;
+  
 } 
 .green2 { 
   width: 100px; 
@@ -66,6 +65,7 @@
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
+  display grid-area: ;
 }
 .red3 {
   width: 100px; 
