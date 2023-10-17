@@ -75,7 +75,7 @@
   display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    grid-column gap: 30px;
+    grid-column gap: 40px;
 
 }
 .red3 {
@@ -90,11 +90,19 @@
   height: 100px; 
   background-color: green;
   grid-column: 1/2;
+  grid-column-start: 1;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  grid-row-end: span 2;
 } 
 .yellow3, main {
   width: 40%; 
   height: 100px; 
   background-color: gold; 
+  grid-column-start: 1;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  grid-row-end: span 2;
   
 } 
 
