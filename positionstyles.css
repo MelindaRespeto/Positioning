@@ -32,13 +32,18 @@
 } 
 /* Activity 2 styles */ 
 .content2 {
+  float: center;
+  position: absolute;
+  left: 3px;
+  top: 0px;
+  z-index: -1;
 }
 .red2 {
-  margin-top: -50px;
+  margin-top: -100px;
   width: 100px; 
   height: 100px; 
   background-color: red; 
-  z-index: -1;
+  
 } 
 .green2 { 
   width: 100px; 
