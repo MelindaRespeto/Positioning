@@ -33,9 +33,8 @@
 /* Activity 2 styles */ 
 .content2 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  gap: 20px;
+  grid-template-columns: 50px 50px 50px 50px ;
+  
 }
 .red2 {
   margin-top: 100px;
