@@ -46,7 +46,7 @@
 } 
 .green2 { 
   margin-top: 0px;
-  width: 100px; 
+  width: 200px; 
   height: 100px; 
   background-color: green;  
   margin-left: 30px;
@@ -59,6 +59,7 @@
   background-color: gold; 
   margin-left: 40px;  
   z-index: 2;
+
 }
 .blue2 {
   width: 100px; 
@@ -78,7 +79,6 @@
   background-color: red; 
 
 }
-  
 .green3 {
   width: 100px; 
   height: 100px; 
