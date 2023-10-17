@@ -33,23 +33,21 @@
 /* Activity 2 styles */ 
 .content2 {
   position: relative;
-  z-index: -1;
+  z-index: 
 }
 .red2 {
   margin-top: 100px;
   width: 100px; 
   height: 100px; 
   background-color: red; 
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
+  
   
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  
   
 } 
 .yellow2 {
