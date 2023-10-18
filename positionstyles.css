@@ -42,7 +42,7 @@
   height: 100px; 
   background-color: red;
   position: relative;top:0; left:0;
-  z-index: 2;
+  z-index: 20;
   margin-left: 50px;
  
 } 
@@ -51,7 +51,7 @@
   width: 100px; 
   height: 100px; 
   background-color: green;  
-  z-index: 1;
+  z-index: 10;
   margin-left: 75px;
   margin-top: -45;
   position: relative;top:0; left:0;
@@ -70,7 +70,7 @@
   height: 100px; 
   background-color: blue; 
   margin-left: 125px;
-  z-index: -1;
+  z-index: -10;
   position: relative;top:0; left:0;
 } 
 /* Activity 3 styles */ 
