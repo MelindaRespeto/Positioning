@@ -50,20 +50,20 @@
   height: 100px; 
   background-color: green;  
   z-index: -1;
-  margin-left: 30px;
+  margin-left: 50px;
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
-  
+  margin-left: 50px;
 
 }
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
- 
+  margin-left: 50px;
   
 } 
 /* Activity 3 styles */ 
