@@ -37,12 +37,13 @@
  grid-auto-flow: row;
 }
 .red2 {
-  margin-top: 0px;
+  margin-top: -10px;
   width: 100px; 
   height: 100px; 
   background-color: red;
   position: relative;top:0; left:0;
-  z-index: -1;
+  z-index: 2;
+  margin-left: 50px;
  
 } 
 .green2 { 
@@ -50,7 +51,7 @@
   width: 100px; 
   height: 100px; 
   background-color: green;  
-  z-index: 0;
+  z-index: 1;
   margin-left: 75px;
   margin-top: -45;
  
@@ -60,14 +61,14 @@
   height: 100px; 
   background-color: gold; 
   margin-left: 100px;
-  z-index: 1;
+  z-index: 0;
 }
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
   margin-left: 125px;
-  z-index: 2;
+  z-index: -1;
 } 
 /* Activity 3 styles */ 
 .content3 {
