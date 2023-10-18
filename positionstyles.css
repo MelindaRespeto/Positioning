@@ -81,7 +81,7 @@
     grid-column gap: 20px;
 }
 
-.red3 {
+.red3, header {
   width: 100%; 
   height: 100px; 
   background-color: red; 
@@ -95,9 +95,9 @@
   grid-column: 1/2;
   grid-column-start: 1;
   grid-column-end: span col3-start;
-  grid-row-start: 2;
+  grid-row-start: 1;
   grid-row-end: span 2;
-  z-index: 2;
+
   
 } 
 .yellow3, main {
@@ -106,17 +106,15 @@
   background-color: gold; 
   grid-column-start: 1;
   grid-column-end: span col5-start;
-  grid-row-start: 1;
+  grid-row-start: 2;
   grid-row-end: span 2;
-  z-index: 4;
-} 
+}
 
-.blue3 {
+.blue3, footer{
   width: 100%;
   height: 100px; 
   background-color: blue; 
   grid-column: 1/3;
-
   
 } 
 /* Activity 4 styles */ 
