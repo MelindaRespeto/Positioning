@@ -100,7 +100,7 @@
 
   
 } 
-.yellow3, main {
+.yellow3,  {
   width: 40%; 
   height: 100px; 
   background-color: gold; 
@@ -128,7 +128,7 @@
   background-color: red; 
   grid-column-start: 1;
   grid-column-end: three;
-  grid-row-start: row1-start;
+  grid-row-start: row1-start;grid-row-end: 
   grid-row-end: 3;
 } 
 .green4 {
