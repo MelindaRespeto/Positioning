@@ -33,7 +33,9 @@
 /* Activity 2 styles */ 
 .content2 {
  grid-template-columns: 50px 50px 50px 50px 50px;
- 
+ grid-template-rows: 50px 50px 50px 50px 50px;
+ grid-auto-flow: row;
+}
 .red2 {
   margin-top: -25px;
   width: 100px; 
@@ -47,8 +49,8 @@
   width: 100px; 
   height: 100px; 
   background-color: green;  
- z-index: -1;
-
+  z-index: -1;
+  margin-left: 30px;
 } 
 .yellow2 {
   width: 100px; 
@@ -71,8 +73,8 @@
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     grid-column gap: 20px;
-
 }
+
 .red3 {
   width: 100%; 
   height: 100px; 
