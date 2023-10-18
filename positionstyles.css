@@ -50,7 +50,7 @@
   height: 100px; 
   background-color: green;  
   z-index: 1;
-  position: relative;top:0; left:0;
+ 
  
 } 
 .yellow2 {
@@ -123,8 +123,8 @@
   width: 100px; 
   height: 100px; 
   background-color: red; 
-  grid-column-start: 2;
-  grid-column-end: five;
+  grid-column-start: 1;
+  grid-column-end: three;
   grid-row-start: row1-start;
   grid-row-end: 3;
 } 
