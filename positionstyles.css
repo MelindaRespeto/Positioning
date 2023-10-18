@@ -54,7 +54,7 @@
   z-index: 1;
   margin-left: 75px;
   margin-top: -45;
-  position: relative;
+  position: relative;top:0; left:0;
  
 } 
 .yellow2 {
@@ -63,7 +63,7 @@
   background-color: gold; 
   margin-left: 100px;
   z-index: 0;
-  position: relative;
+  position: relative;top:0; left:0;
 }
 .blue2 {
   width: 100px; 
@@ -71,7 +71,7 @@
   background-color: blue; 
   margin-left: 125px;
   z-index: -1;
-  position: relative;
+  position: relative;top:0; left:0;
 } 
 /* Activity 3 styles */ 
 .content3 {
