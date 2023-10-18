@@ -45,26 +45,27 @@
  
 } 
 .green2 { 
-  margin-top: 0px;
+  margin-top: 25px;
   width: 100px; 
   height: 100px; 
   background-color: green;  
-  z-index: -1;
-  margin-left: 50px;
+  z-index: 1;
+  position: relative;top:0; left:0;
+ 
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
   margin-left: 75px;
-
+  z-index: 2;
 }
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
   margin-left: 100px;
-  
+  z-index: 3;
 } 
 /* Activity 3 styles */ 
 .content3 {
