@@ -32,14 +32,14 @@
 } 
 /* Activity 2 styles */ 
 .content2 {
- 
+}
 .red2 {
   margin-top: -10px;
   width: 100px; 
   height: 100px; 
   background-color: red;
   position: relative;
-  z-index: 50;
+  z-index: -00;
   margin-left: 50px;
   
 } 
@@ -48,9 +48,9 @@
   width: 100px; 
   height: 100px; 
   background-color: green;  
-  z-index: 40;
+  z-index: 50;
   margin-left: 100px;
-  margin-top: -45;
+  margin-top: -80;
   position: relative;
  
 } 
@@ -58,17 +58,19 @@
   width: 100px; 
   height: 100px; 
   background-color: gold; 
-  margin-left: 125px;
+  margin-left: 150px;
   z-index: 30;
   position: relative;
+  margin-top: -40px;
 }
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
-  margin-left: 150px;
+  margin-left: 200px;
   z-index: 20;
   position: relative;
+  margin-top: -20px;
 } 
 /* Activity 3 styles */ 
 .content3 {
