@@ -116,29 +116,37 @@
   /* This is the parent of the activity 4 boxes. */
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+    gap: 0;
 }
+    
 .red4 {
   width: 100px; 
   height: 100%; 
   background-color: red; 
-  grid-area: 1 / col1-start / last-line / 4;
+  grid-row: 1/4;
   
-} 
+}
+
 .green4 {
   width: 100px; 
-  height: 100px; 
-  background-color: green; 
+  height: 50px; 
+  background-color: green;  
+  grid-area: 2/2;
 } 
 .yellow4 {
   width: 100px; 
-  height: 100px; 
-  background-color: gold; 
+  height: 50px; 
+  background-color: gold;
+  
+  
 } 
 .blue4 {
   width: 100px; 
-  height: 100px; 
+  height: 50px; 
   background-color: blue; 
+  grid-column: 3 / span 2;
+  grid-row: fifth-line / 4;
+  
 } 
 /* Activity 5 styles */ 
 .content5 {
