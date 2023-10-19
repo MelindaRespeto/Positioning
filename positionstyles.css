@@ -115,9 +115,9 @@
 .content4 {
   /* This is the parent of the activity 4 boxes. */
   display: grid;
-  grid-template-rows: 100px 100px  100px  100px  100px 100px;
-  grid-template-columns: 100px 100px  100px  100px  100px 100px;
-  height: 400px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
 }
 .red4 {
   width: 100px; 
