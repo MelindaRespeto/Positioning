@@ -92,16 +92,16 @@
   width: 50%; 
   height: 100px; 
   background-color: green;
-  grid-column-start: 1;
-  grid-column-end: span col4-start;
+  grid-column: 1/3;
+  
   
   
 } 
-.yellow3, main {
+.yellow3, main  {
   width: 60%; 
   height: 100px; 
   background-color: gold; 
-  grid-column: 3/4;
+ 
 }
 
 .blue3, footer{
