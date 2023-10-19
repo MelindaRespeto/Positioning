@@ -92,14 +92,17 @@
   width: 50%; 
   height: 100px; 
   background-color: green;
-  grid-column: 1/2;
+  grid-column-start: 1;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  grid-row-end: span 2;
   
 } 
-.yellow3,  {
-  width: 40%; 
+.yellow3, main {
+  width: 60%; 
   height: 100px; 
   background-color: gold; 
-  grid-column: 3/3;
+  grid-column: 3/4;
 }
 
 .blue3, footer{
