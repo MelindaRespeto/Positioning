@@ -180,8 +180,6 @@
   background-color: gold; 
   word-wrap: normal;
 
-  
-
 } 
 .blue5 {
   width: 100%; 
@@ -193,26 +191,35 @@
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
+  display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: auto;
+    gap: 0;
 }
+
 .red6 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
+  grid-row: 1/4;
 } 
 .green6 {
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  grid-row: 2/4;
 } 
 .yellow6 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  grid-row: 4/6;
 } 
 .blue6 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  grid-row: 1/2;
 } 
 
 
