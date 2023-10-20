@@ -202,8 +202,9 @@
   height: 100px; 
   background-color: red; 
   grid-row: 1/4;
-  position:absolute;
+  position:relative;
   z-index: 30;
+
  
 } 
 .green6 {
@@ -211,8 +212,9 @@
   height: 100px; 
   background-color: green; 
   grid-row: 3/4;
-  position: absolute; 
+  position: relative; 
   z-index: 10;
+  margin-top: 20px;
 
 
 } 
