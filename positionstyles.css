@@ -198,7 +198,7 @@
 }
 
 .red6 {
-  width: 125px; 
+  width: 200px; 
   height: 75px; 
   background-color: red; 
   grid-row: 1/5;
@@ -228,10 +228,10 @@
   
 } 
 .blue6 {
-  width: 100px; 
+  width: 150px; 
   height: 100px; 
   background-color: blue; 
-  grid-row: 3/4;
+  grid-row: 3/5;
   margin-top: 30px;
   float: 20px;
   margin-left: 20px;
