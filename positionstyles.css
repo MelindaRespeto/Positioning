@@ -195,14 +195,15 @@
     grid-template-columns: 200px 200px 200px 200px 100px ;
     grid-template-rows: auto;
     gap: 0;
+    justify-items: stretch;
 }
 
 .red6 {
   width: 150px; 
   height: 100px; 
   background-color: red; 
-  grid-columns: 1/4;
-  grid-rows:1/4;
+  grid-column: 1/4;
+  grid-row:1/4;
  
  
 } 
@@ -210,9 +211,10 @@
   width: 100px; 
   height: 100px; 
   background-color: green; 
-  grid-column: 3/4;
-  z-index: 10;
-  margin-top: 120px;
+  grid-column: 1/4;
+  grid-row: 1/4;
+  margin-top: 150px;
+  z-index: 1;
 
 
 } 
@@ -220,20 +222,25 @@
   width: 100px; 
   height: 100px; 
   background-color: gold; 
-  grid-row: 3/6;
-  margin-top: 10px;
-  z-index: 50px;
-  margin-top: 90px;
-  
+  grid-row: 1/4;
+  grid-column: 1/4;
+  margin-top: 120px;
+  margin-left: 170px;
+  z-index: 1;
+ 
 } 
 .blue6 {
   width: 150px; 
   height: 100px; 
   background-color: blue; 
-  grid-columns: 1/4;
-  grid-rows:1/4;
+  grid-column: 1/4;
+  grid-row: 1/4;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
   
-} 
+
 
 
 /* Do not make any changes below here */
