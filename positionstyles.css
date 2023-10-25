@@ -192,19 +192,18 @@
 .content6 {
   /* This is the parent of the activity 6 boxes. */
   display: grid;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 200px 200px 200px 200px 100px ;
     grid-template-rows: auto;
     gap: 0;
 }
 
 .red6 {
-  width: 200px; 
-  height: 75px; 
+  width: 150px; 
+  height: 100px; 
   background-color: red; 
-  grid-row: 1/5;
-  position:relative;
-  z-index: 30;
-
+  grid-columns: 1/4;
+  grid-rows:1/4;
+ 
  
 } 
 .green6 {
@@ -222,7 +221,7 @@
   height: 100px; 
   background-color: gold; 
   grid-row: 3/6;
-  margin-top: 30px;
+  margin-top: 10px;
   z-index: 50px;
   margin-top: 90px;
   
@@ -231,13 +230,8 @@
   width: 150px; 
   height: 100px; 
   background-color: blue; 
-  grid-row: 3/5;
-  margin-top: 30px;
-  float: 20px;
-  margin-left: 20px;
-
-  
-  
+  grid-columns: 1/4;
+  grid-rows:1/4;
   
 } 
 
