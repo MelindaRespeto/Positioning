@@ -211,8 +211,7 @@
   width: 100px; 
   height: 100px; 
   background-color: green; 
-  grid-row: 3/4;
-  position: relative; 
+  grid-column: 3/4;
   z-index: 10;
   margin-top: 120px;
 
@@ -224,19 +223,20 @@
   background-color: gold; 
   grid-row: 3/6;
   margin-top: 30px;
-  position:relative;
   z-index: 50px;
   margin-top: 90px;
   
- 
 } 
 .blue6 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
-  grid-row: 2/5;
-  margin-top: 50px;
-  margin-left: 0px;
+  grid-row: 2/4;
+  margin-top: 30px;
+  float: 20px;
+  margin-left: 20px;
+
+  
   
   
 } 
