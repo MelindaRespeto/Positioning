@@ -34,23 +34,22 @@
 .content2 {
 }
 .red2 {
-  margin-top: -10px;
+  margin-top: 20px;
   width: 100px; 
   height: 100px; 
   background-color: red;
   position: relative;
-  z-index: -100;
+  z-index: -50;
   margin-left: 50px;
   
 } 
 .green2 { 
-  margin-top: 0px;
   width: 100px; 
   height: 100px; 
   background-color: green;  
   z-index: 50;
   margin-left: 100px;
-  margin-top: -50;
+  margin-top: -80px;
   position: relative;
  
 } 
