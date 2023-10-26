@@ -181,7 +181,7 @@
   height: 210px; 
   background-color: gold; 
   word-wrap: break-word;
-  grid-column: auto/span 3;
+  grid-column: 1/4;
 
 } 
 .blue5 {
